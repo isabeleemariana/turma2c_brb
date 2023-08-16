@@ -7,32 +7,33 @@
     font-weight: 700;
     padding: 1em 0 0.5em 0;
 }
-.swiper_slide img{
+
+.swiper-slide img{
     width: 100%;
 }
 
-.swiper-button-prev
+.swiper-button-prev,
 .swiper-button-next{
     display: none;
 }
+
 .swiper-pagination{
     position: initial;
     margin: 0.5em 0;
 }
 
-/* parte ferente oa card */
-
-.card_descrição{
+.card_descricao{
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
 }
 
-.card_botões{
+.card_botoes{
     display: flex;
     justify-content: space-between;
 }
-.botões{
+
+.botoes{
     display: flex;
 }
 
@@ -44,30 +45,34 @@
     padding: 1em;
 }
 
-.descrição_titulo{
+.descricao_titulo{
     color: var(--laranja);
     font-weight: 700;
 }
 
-.descrição_titulo-livro{
+.descricao_titulo-livro{
     color: var(--azul);
     font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
 }
 
-.descrição_texto{
+.descricao_texto{
     font-size: 14px;
 }
 
-.botões_item{
+.botoes_item{
     margin: 0 0.5em;
 }
 
-.botõe_ancora{
+.botoes_ancora{
     background-color: var(--laranja);
     padding: 1em 2.2em;
     font-weight: 700;
     color: var(--branco);
     text-decoration: none;
+}
+
+.estrelinhas{
+    padding: 0.5em 0.5em 0.5em 0;
 }
